@@ -1,10 +1,14 @@
 <html>
 <head>
  <script>
-        
+   try {
+    document.getElementById("demo1").innerHTML = "Izdruka no Internal scr";
+}     
+catch (err) {
+    alert("Kļūda no internal scr: " + err);
+}
  </script>
     <script src="JS/JS-external.js"></script>
-
 </head>
 
 <body>
@@ -22,6 +26,7 @@
         document.getElementById("error").innerHTML = "Kļūda no inline scr";
 
     }
+    <script src="JS/JS-external.js"></script>
 </script>
 
 </body>
