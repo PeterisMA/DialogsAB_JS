@@ -30,5 +30,5 @@ function compare_three() {
     if (b > c) {temp = b; b = c; c = temp;}
     if (a > b) {temp = a; a = b; b = temp;}
 
-    document.getElementById("demo").innerHTML = a + " " + " " + b + " " + c  +;
+    document.getElementById("demo").innerHTML = a + " " + " " + b + " " + c  +
 }
