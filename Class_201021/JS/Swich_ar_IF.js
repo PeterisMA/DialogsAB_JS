@@ -1,4 +1,4 @@
-
+/*
     let text;
     switch (new Date().getDay()) {
       case 4:
@@ -13,4 +13,15 @@
         text = "Looking forward to the Weekend";
     }
     document.getElementById("demo").innerHTML = text;
-   
+   */
+var day = new Date().getDay();
+if (day == 4 || day == 5) {
+  text = "Soon is Wknd"
+}
+else if (day == 0 || day == 6) {
+  text = "It is Wknd";
+}
+else {
+  text = "Looking forward to the Wknd"
+}
+document.getElementById("demo").innerHTML = text;
